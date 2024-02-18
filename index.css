@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+   
+}
+
+.main-container{
+    background-color: black;
+    color: #fff;
+
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+header .container h1 {
+    margin: 0;
+    display: inline;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 30%;
+    margin-bottom: 10px;
+}
+
+.project {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    display: inline-block;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+}
+
+@media (max-width: 768px) {
+    header .container h1 {
+        display: block;
+        text-align: center;
+    }
+
+    header nav {
+        float: none;
+        margin-top: 20px;
+    }
+
+    header nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+.nav-items{
+    display:flex;
+}
+.form-item{
+    margin-bottom: 10px;
+}
+.about-me{
+    display: flex;
+
+}
+.anc-item{
+    color:white;
+} 
+.project-items{
+    display: flex;
+} 
+.button{
+    width:100px;
+    height: 40px;
+    background-color: blue;
+    color:#fff;
+    border-radius: 10px;
+}
+.contact{
+    border-radius: 20px;
+    background-color:white ;
+    background-size: cover;
+    color: black;
+    width:350px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+.img-logo{
+    width:100px;
+    border-radius: 50px;
+}
+.img-logo2{
+    width:100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.skills-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin: 10px;
+}
+.skill-para{
+    margin-left: 10px;
+}
