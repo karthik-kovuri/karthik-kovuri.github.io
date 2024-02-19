@@ -143,6 +143,7 @@ footer {
 }
 .skills-container{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 5px;
@@ -150,4 +151,10 @@ footer {
 }
 .skill-para{
     margin-left: 10px;
+}
+.skill-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
